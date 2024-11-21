@@ -2,7 +2,7 @@ package Actividad5B;
 
 import java.util.Scanner;
 
-public class Ej13 {
+public class Ej13B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce la altura de la pirámide: ");

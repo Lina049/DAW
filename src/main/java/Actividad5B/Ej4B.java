@@ -2,7 +2,7 @@ package Actividad5B;
 
 import java.util.Scanner;
 
-public class Actividad4 {
+public class Ej4B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce un número:");

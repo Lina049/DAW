@@ -1,10 +1,9 @@
 package UD5part2;
 
 import java.text.MessageFormat;
-import java.util.Random;
 import java.util.Scanner;
 
-public class Actividad14 {
+public class EJ14A {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce cantidad de euros: ");

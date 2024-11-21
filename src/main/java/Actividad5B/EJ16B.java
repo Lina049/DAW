@@ -8,7 +8,7 @@ Tiene que ser dias validos (numero de dia de la semana o por dias escrito).
 No se tendran en cuenta los minutos ni los segundos.
  */
 
-public class EJ16 {
+public class EJ16B {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String dia = "";

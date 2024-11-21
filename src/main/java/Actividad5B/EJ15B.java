@@ -2,10 +2,10 @@ package Actividad5B;
 
 import java.util.Scanner;
 
-public class EJ15 {
+public class EJ15B {
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Introduce una hora en formato (HH:MM:SS): ");
+        System.out.println("Introduce una hora (HH:MM:SS): ");
         String FormatoHora = sc.next();
         String hora = FormatoHora.charAt(0) + "" + FormatoHora.charAt(1);
         String min = FormatoHora.charAt(3) + "" + FormatoHora.charAt(4);
@@ -22,7 +22,7 @@ public class EJ15 {
             }
 
 
-            System.out.print("Incorrecto, vuelve a introducirlo: ");
+            System.out.println("Incorrecto, vuelve a introducirlo: ");
            FormatoHora = sc.next();
             hora = FormatoHora.charAt(0) + "" + FormatoHora.charAt(1);
             min = FormatoHora.charAt(3) + "" + FormatoHora.charAt(4);
